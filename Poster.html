@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Плакат</title>
+    <style type="text/css">
+        body{
+            font-family: "Yandex Sans", sans-serif;
+            font-size: 100%;
+            text-align: left;
+            font-weight: bold;
+            margin: 0 auto;
+            background-color: #fed002;
+            padding: 10%;
+        }
+        p#logo:first-letter{
+            color: red;
+        }
+        p#logo{
+            font-size: 120%;
+            transform: scale(1, 1.5);
+            text-align: left;
+            margin-top: 0;
+        }
+        h1{
+            font-size: 300%;
+        }
+        h2{
+            font-size: 200%;
+        }
+        div#outer{
+            margin: 0 auto;
+            background-color: white;
+            padding: 3%;
+            display: block;
+            max-width: 600px;
+            min-width: 600px;
+        }
+        .content{
+            vertical-align: top;
+            padding: 2%;
+            display: inline-block;
+            width: 45%;
+        }
+        .inner{
+            padding: 2%;
+        }
+        p{
+            margin-top: 0;
+        }
+        ul {
+            padding-inline-start: 7%;
+        }
+        @font-face {
+            font-family: "Yandex Sans";
+            src: url("Yandex Sans Display-Light.ttf");
+            font-style: normal;
+            font-weight: normal;
+        }
+    </style>
+    <!--    <link rel="stylesheet" href="styles.css">-->
+</head>
+<body>
+<div id="outer">
+    <p id="logo">Яндекс</p>
+    <h1>Курс по разработке интерфейсов</h1>
+    <h2>Яндекс совместно с ДММиКН УрФУ запускает годовой курс обучения по основам веб-разработки</h2>
+    <div class="content">
+        <div class="inner">
+        <p>Содержание курса:</p>
+            <ul>
+                <li>Разметка страницы и CSS</li>
+                <li>Язык JavaScript</li>
+                <li>Клиентское программирование, React + Redux</li>
+                <li>Серверное программирование на Node.js</li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="inner">
+        Преподаватели - разработчики Яндекса.<br>
+        Занятия будут проходить по вечерам два раза в неделю - в ДММиКН УрФУ.<br>
+        </div>
+        <div class="inner">
+            Курс рассчитан на студентов 3 курса и старше, а так же магистрантов.
+        </div>
+    </div>
+    <div class="inner">
+        Организационная встреча пройдет 24 сентября, вторник<br>
+        Аудитория 632, начало в 18:00<br>
+    </div>
+    <a href="https://ibb.co/JzWQzwM">
+        <img src="https://i.ibb.co/mHr8HVM/figures.png" alt="figures" border="0" width="100%" height="100%">
+    </a>
+</div>
+</body>
+</html>

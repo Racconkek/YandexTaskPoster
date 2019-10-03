@@ -1,0 +1,52 @@
+body{
+    font-family: "Yandex Sans", sans-serif;
+    font-size: 100%;
+    text-align: left;
+    background-color: #fed002;
+    padding: 10%;
+    font-weight: bold;
+}
+p#logo:first-letter{
+    color: red;
+}
+p#logo{
+    font-stretch: ultra-condensed;
+    font-size: 200%;
+    /*transform: scaleX(0.5);*/
+    text-align: left;
+}
+h1{
+    font-size: 300%;
+}
+h2{
+    font-size: 200%;
+}
+ul {
+    padding-inline-start: 7%;
+}
+th{
+    padding: 2%;
+}
+div{
+    padding: 5%;
+}
+div#text{
+    background-color: white;
+    display: inline-block;
+}
+div#img{
+    padding: 0;
+}
+li{
+    white-space: nowrap;
+}
+table{
+    table-layout: fixed;
+}
+
+@font-face {
+    font-family: "Yandex Sans";
+    src: url("Yandex Sans Display-Light.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
